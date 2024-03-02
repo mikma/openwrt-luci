@@ -26,14 +26,6 @@
 		}
 	},
 
-	"admin/network/remote_addr/*": {
-		"action": {
-			"type": "call",
-			"module": "luci.controller.admin.network",
-			"function": "remote_addr"
-		}
-	},
-
 	"admin/network/network": {
 		"title": "Interfaces",
 		"order": 10,
